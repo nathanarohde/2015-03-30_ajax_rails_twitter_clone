@@ -1,0 +1,7 @@
+<h4>Psuedo Twitter</h4>
+
+<%= link_to 'New Tweet', new_tweet_path, id: 'new_link', remote: true %>
+
+<div class='tweets' id='tweets'>
+  <%= render @tweets %>
+</div>
